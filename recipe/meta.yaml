@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python
+    - setuptools
   run:
     - pyobjc-framework-quartz  # [osx]
     - python
