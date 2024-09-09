@@ -13,12 +13,13 @@ build:
   # Source code checks for sys.platform and riase NotImplementedError if it's linux
   skip: True  # [linux]
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 3
 
 requirements:
   host:
     - pip
     - python
+    - setuptools
   run:
     - pyobjc-framework-quartz  # [osx]
     - python
