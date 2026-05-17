@@ -16,9 +16,6 @@ build:
   number: 5
 
 requirements:
-  build:
-    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
-    - python                                 # [build_platform != target_platform]
   host:
     - pip
     - python
